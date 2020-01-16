@@ -1,16 +1,16 @@
 import React from 'react';
 
-import Aux from '../../hoc/Aux';
+import Auxiliary from '../../hoc/Auxiliary';
 import './Layout.css';
 
 const layout = (props) => {
   return(
-    <Aux>
+    <Auxiliary>
     <div>Toolbar, SideDrawer, Backdrop</div>
     <main className="content">
       {props.children}
     </main>
-    </Aux>
+    </Auxiliary>
   );
 }
 export default layout;
