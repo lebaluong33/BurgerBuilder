@@ -2,8 +2,7 @@ import React from 'react';
 
 import './Button.css';
 
-const button = (props) => { 
-  console.log(props.disabled);
+const button = (props) => {
   return (
     <button
       disabled={props.disabled}
