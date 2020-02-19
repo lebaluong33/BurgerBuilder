@@ -7,7 +7,7 @@ const initialState = {
   error: null,
   loading: false,
   authRedirectPath: '/'
-}
+};
 
 const authStart = state => {
   return updateObject(state, {error: null, loading: true});
